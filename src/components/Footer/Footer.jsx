@@ -20,6 +20,22 @@ const Footer = () => {
           >
             <i className="fa fa-linkedin fa-inverse" />
           </a>
+          <a
+            href="https://www.facebook.com/cyberucsd"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="facebook"
+          >
+            <i className="fa fa-facebook fa-inverse" />
+          </a>
+          <a
+            href="https://twitter.com/cyberucsd"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="twitter"
+          >
+            <i className="fa fa-twitter fa-inverse" />
+          </a>
         </div>
         <hr />
         <p className="footer__text">
