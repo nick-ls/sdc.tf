@@ -2,17 +2,17 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'sdc.tf', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'San Diego CTF', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'coming soon ',
+  name: 'sdc.tf',
+  subtitle: 'April 17 - 18, 2021',
+  cta: 'Register Now',
 };
 
 // ABOUT DATA
@@ -67,28 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/company/cyber-ucsd/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/orgs/acmucsd/teams/acm-cyber',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
