@@ -22,11 +22,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `SD CTF`,
+        name: `San Diego CTF`,
         short_name: `sdc.tf`,
         start_url: `/`,
         background_color: `#fff`,
-        theme_color: `#02aab0`,
+        theme_color: `#51C0C0`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },

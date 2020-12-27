@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea55eaf9-dd74-44fd-bd23-ab473d74a028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/Hero.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609051171096</updated>
-      <workItem from="1609051174026" duration="3732000" />
+      <workItem from="1609051174026" duration="4485000" />
     </task>
     <task id="LOCAL-00001" summary="project files for WebStorm">
       <created>1609053214076</created>
@@ -79,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609055425680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="slight wording change">
+      <created>1609055498999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609055498999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +107,7 @@
     <MESSAGE value="project files for WebStorm" />
     <MESSAGE value="hero edits for sdctf" />
     <MESSAGE value="removed templating" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed templating" />
+    <MESSAGE value="slight wording change" />
+    <option name="LAST_COMMIT_MESSAGE" value="slight wording change" />
   </component>
 </project>
