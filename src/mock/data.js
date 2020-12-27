@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'coming soon ',
   name: 'sdc.tf',
-  subtitle: 'April 17 - 18, 2021',
+  subtitle: 'Friday April 16, 6pm - Sunday April 18, 6pm (PST)',
   cta: 'Register Now',
 };
 
