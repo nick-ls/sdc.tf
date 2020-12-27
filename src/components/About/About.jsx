@@ -21,12 +21,12 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="About Us" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename="" />
+                <AboutImg alt="profile picture" filename="profile.png" />
               </div>
             </Fade>
           </Col>
@@ -34,26 +34,31 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa
-                  animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur
-                  blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
+                  San Diego CTF, also known as SDCTF, is an annual Capture the Flag competition
+                  hosted by undergraduates at the University of California, San Diego (UCSD). The
+                  competition will be jeopardy-style and run in the 48 hour period from April 16 to
+                  April 18, 2021. We encourage participation from teams on and off campus, of all
+                  ages and backgrounds.
                 </p>
                 <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa
-                  animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur
-                  blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.
+                  This event is hosted yearly by ACM Cyber, the chief cybersecurity organization on
+                  campus at UC San Diego. This yearly competition allows us to train our members,
+                  build our internal resources, and give back to the greater cybersecurity
+                  community.
                 </p>
                 <p className="about-wrapper__info-text">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  While our infrastructure is in development, registration is not available at this
+                  time. You can indicate you want to contacted with information once it is available
+                  using the form linked below.
                 </p>
                 <span className="d-flex mt-3">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href="#!"
+                    href="https://forms.gle/UnmomPBQfN8MTnjw9"
                   >
-                    Resume
+                    Register
                   </a>
                 </span>
               </div>
