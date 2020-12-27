@@ -23,8 +23,7 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             <span className="hero-subtitle">
-              Coming soon, from
-              <span className="text-color-main"> ACM Cyber</span> at UCSD
+              <span className="text-color-main"> ACM Cyber</span> at UCSD presents
             </span>
             <br />
             San Diego CTF
