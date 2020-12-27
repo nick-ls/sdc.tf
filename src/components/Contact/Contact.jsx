@@ -7,15 +7,25 @@ const Contact = () => {
   return (
     <section id="contact">
       <Container>
-        <Title title="Contact" />
+        <Title title="Sponsorship" />
         <Fade bottom duration={1000} delay={800} distance="30px">
           <div className="contact-wrapper">
-            <p className="contact-wrapper__text">Would you like to work with me? Awesome!</p>
+            <p className="contact-wrapper__text">
+              We are actively looking for sponsors! If you are interested, check out our
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1myq_caJKlLUWllSOQfwOklXYfaNEIAQO/view?usp=sharing"
+              >
+                {' official sponsorship packet '}
+              </a>
+              and then get in touch with us below.
+            </p>
             <a
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href="https://github.com/cobidev/react-simplefolio"
+              href="mailto:cyber@acmucsd.org"
             >
               Lets Talk
             </a>
