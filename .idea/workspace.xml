@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ea55eaf9-dd74-44fd-bd23-ab473d74a028" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/profile.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +26,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/style/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/style/components" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="develop" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -56,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609051171096</updated>
-      <workItem from="1609051174026" duration="4485000" />
+      <workItem from="1609051174026" duration="11142000" />
     </task>
     <task id="LOCAL-00001" summary="project files for WebStorm">
       <created>1609053214076</created>
@@ -86,7 +95,42 @@
       <option name="project" value="LOCAL" />
       <updated>1609055498999</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="repo cleaning">
+      <created>1609096872628</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609096872628</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removed &quot;template&quot; mentioning from copyright lol">
+      <created>1609098656458</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609098656458</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished adding social media">
+      <created>1609100298096</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100298096</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add sponsorship links">
+      <created>1609100316109</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609100316109</updated>
+    </task>
+    <task id="LOCAL-00009" summary="completed About Us section">
+      <created>1609101655236</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609101655237</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +152,11 @@
     <MESSAGE value="hero edits for sdctf" />
     <MESSAGE value="removed templating" />
     <MESSAGE value="slight wording change" />
-    <option name="LAST_COMMIT_MESSAGE" value="slight wording change" />
+    <MESSAGE value="repo cleaning" />
+    <MESSAGE value="removed &quot;template&quot; mentioning from copyright lol" />
+    <MESSAGE value="finished adding social media" />
+    <MESSAGE value="add sponsorship links" />
+    <MESSAGE value="completed About Us section" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed About Us section" />
   </component>
 </project>
