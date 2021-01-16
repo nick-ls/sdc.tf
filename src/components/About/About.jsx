@@ -36,9 +36,9 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   San Diego CTF, also known as SDCTF, is an annual Capture the Flag competition
                   hosted by undergraduates at the University of California, San Diego (UCSD). The
-                  competition will be jeopardy-style and run in the 48 hour period from April 16 to
-                  April 18, 2021. We encourage participation from teams on and off campus, of all
-                  ages and backgrounds.
+                  competition will be jeopardy-style and run in the 48 hour period from April 30 to
+                  May 2, 2021. We encourage participation from teams on and off campus, of all ages
+                  and backgrounds.
                 </p>
                 <p className="about-wrapper__info-text">
                   This event is hosted yearly by ACM Cyber, the chief cybersecurity organization on
