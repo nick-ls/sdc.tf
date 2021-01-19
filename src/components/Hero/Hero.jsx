@@ -28,7 +28,7 @@ const Header = () => {
             <br />
             San Diego CTF
             <br />
-            <span className="hero-details">Friday April 30, 6pm - Sunday May 2, 6pm (PDT)</span>
+            <span className="hero-details">Friday May 7, 5pm - Sunday May 9, 5pm (PDT)</span>
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
