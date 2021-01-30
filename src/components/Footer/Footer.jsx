@@ -44,6 +44,9 @@ const Footer = () => {
             Jacobo Martínez
           </a>
         </p>
+        <p className="footer__text">
+          {`s d c t f { T h 3 _ L 0 $ t _ t r E @ $ u r 3 _ 0 f _ t h 3 _ I N t 3 r n E t }`}
+        </p>
       </Container>
     </footer>
   );
