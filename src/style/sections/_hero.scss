@@ -1,12 +1,12 @@
 #hero {
-  min-height: 100vh;
+  min-height: 120vh;
   height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: $dark-blue-text;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $white-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -47,6 +47,7 @@
     }
     .hero-subtitle {
       font-size: 3.6rem;
+      margin-top: 2.8rem;
     }
     .hero-details {
       font-size: 3.6rem;
