@@ -13,7 +13,7 @@ const HeroImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fluid(maxWidth: 1366) {
+                fluid(maxWidth: 400) {
                   ...GatsbyImageSharpFluid
                 }
               }

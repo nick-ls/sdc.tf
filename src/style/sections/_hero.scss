@@ -1,6 +1,6 @@
 #hero {
-  min-height: 120vh;
-  height: 100vh;
+  min-height: 100vh;
+  //height: 100vh;
   display: flex;
   align-items: center;
   border-bottom: 0px;
@@ -22,7 +22,7 @@
   background-size: cover; */
 
   @include respond(phone) {
-    padding: 0rem $default-font-size;
+    padding: 2.8rem $default-font-size;
   }
 
   .hero-title {

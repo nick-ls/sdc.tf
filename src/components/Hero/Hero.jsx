@@ -19,10 +19,10 @@ const Header = () => {
   }, []);
 
   return (
-    <section id="hero" className="jumbotron">
+    <section id="hero" className="jumbotron-fluid">
       <Container>
         <Row>
-          <Col md={8} sm={12}>
+          <Col lg={8} md={6} sm={12}>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
             <h1 className="hero-title">
               <span className="hero-subtitle">
@@ -44,7 +44,7 @@ const Header = () => {
             </p>
           </Fade>
           </Col>
-          <Col md={4} sm={12}>
+          <Col lg={4} md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <HeroImg alt="logo" filename="sdctf-logo.png" />
             </Fade>
