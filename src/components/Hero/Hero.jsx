@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Container } from 'react-bootstrap';
+import { Col, Container, Row } from "react-bootstrap";
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
+import HeroImg from '../Image/HeroImg';
 
 const Header = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -18,26 +19,26 @@ const Header = () => {
   }, []);
 
   return (
-    <section id="hero" className="jumbotron">
+    <section id="hero" className="jumbotron-fluid">
       <Container>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
+        <Fade bottom duration={1000} delay={600} distance="30px">
+          <div className="hero-wrapper__image">
+            <HeroImg alt="logo" filename="sdctf-logo.png" />
+          </div>
+        </Fade>
+        <br />
+        <Fade bottom duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
-            <span className="hero-subtitle">
-              <span className="text-color-main"> ACM Cyber</span> at UCSD presents
-            </span>
-            <br />
-            San Diego CTF
-            <br />
-            <span className="hero-details">Friday May 7, 5pm - Sunday May 9, 5pm (PDT)</span>
+            <span className="hero-details"><b>Fri</b> May 7, 5pm - <b>Sun</b> May 9, 5pm (PDT)</span>
           </h1>
         </Fade>
-        <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+        <Fade bottom duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
-            <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
-                Register Now
-              </Link>
-            </span>
+              <span className="cta-btn cta-btn--hero">
+                <Link to="about" smooth duration={1000}>
+                  Register Now
+                </Link>
+              </span>
           </p>
         </Fade>
       </Container>

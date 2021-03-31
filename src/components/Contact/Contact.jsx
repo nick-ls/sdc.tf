@@ -15,7 +15,7 @@ const Contact = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1myq_caJKlLUWllSOQfwOklXYfaNEIAQO/view?usp=sharing"
+                href="https://drive.google.com/file/d/11bImJYp3Gq1_LRpSG9HfcfT3y6EGRiCL/view?usp=sharing"
               >
                 {' official sponsorship packet '}
               </a>
@@ -27,7 +27,7 @@ const Contact = () => {
               className="cta-btn cta-btn--resume"
               href="mailto:cyber@acmucsd.org"
             >
-              Lets Talk
+              Let's Talk
             </a>
           </div>
         </Fade>
