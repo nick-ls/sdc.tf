@@ -13,8 +13,8 @@ const HeroImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fluid(maxWidth: 400) {
-                  ...GatsbyImageSharpFluid
+                fixed(width: 375) {
+                  ...GatsbyImageSharpFixed
                 }
               }
             }
@@ -27,8 +27,8 @@ const HeroImg = ({ filename, alt }) => (
 
       if (!image) return null;
 
-      const imageFluid = image.node.childImageSharp.fluid;
-      return <Img alt={alt} fluid={imageFluid} />;
+      const imageFixed = image.node.childImageSharp.fixed;
+      return <Img alt={alt} fixed={imageFixed} />;
     }}
   />
 );

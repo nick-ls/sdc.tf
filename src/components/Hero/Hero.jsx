@@ -21,35 +21,26 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron-fluid">
       <Container>
-        <Row>
-          <Col lg={8} md={6} sm={12}>
-          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-            <h1 className="hero-title">
-              <span className="hero-subtitle">
-                <span className="text-color-main"> ACM Cyber</span> at UCSD presents
-              </span>
-              <br />
-              San Diego CTF
-              <br />
-              <span className="hero-details"><b>Fri</b> May 7, 5pm - <b>Sun</b> May 9, 5pm (PDT)</span>
-            </h1>
-          </Fade>
-          <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-            <p className="hero-cta">
+        <Fade bottom duration={1000} delay={600} distance="30px">
+          <div className="hero-wrapper__image">
+            <HeroImg alt="logo" filename="sdctf-logo.png" />
+          </div>
+        </Fade>
+        <br />
+        <Fade bottom duration={1000} delay={500} distance="30px">
+          <h1 className="hero-title">
+            <span className="hero-details"><b>Fri</b> May 7, 5pm - <b>Sun</b> May 9, 5pm (PDT)</span>
+          </h1>
+        </Fade>
+        <Fade bottom duration={1000} delay={1000} distance="30px">
+          <p className="hero-cta">
               <span className="cta-btn cta-btn--hero">
                 <Link to="about" smooth duration={1000}>
                   Register Now
                 </Link>
               </span>
-            </p>
-          </Fade>
-          </Col>
-          <Col lg={4} md={6} sm={12}>
-            <Fade bottom duration={1000} delay={600} distance="30px">
-              <HeroImg alt="logo" filename="sdctf-logo.png" />
-            </Fade>
-          </Col>
-        </Row>
+          </p>
+        </Fade>
       </Container>
     </section>
   );

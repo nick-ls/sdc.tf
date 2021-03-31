@@ -29,7 +29,7 @@
     font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
-    text-align: left;
+    text-align: center;
 
     @include respond(tab-land) {
       font-size: 4rem;
@@ -57,7 +57,7 @@
   }
 
   .hero-cta {
-    display: flex;
+    display: center;
 
     @include respond(tab-port) {
       justify-content: center;
@@ -68,6 +68,25 @@
 
       @include respond(phone) {
         font-size: 2rem;
+      }
+    }
+  }
+
+  .hero-wrapper {
+    @include respond(phone) {
+      padding-bottom: 0rem;
+    }
+
+    &__image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      @include respond(tab-port) {
+        padding-bottom: 2.4rem;
+      }
+      @include respond(tab-land) {
+        height: 100%;
       }
     }
   }
