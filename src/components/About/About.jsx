@@ -47,18 +47,17 @@ const About = () => {
                   community.
                 </p>
                 <p className="about-wrapper__info-text">
-                  While our infrastructure is in development, registration is not available at this
-                  time. You can indicate you want to contacted with information once it is available
-                  using the form linked below.
+                  You may now participate in San Diego CTF by joining our official competition
+                  Discord.
                 </p>
                 <span className="d-flex mt-3">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href="https://forms.gle/UnmomPBQfN8MTnjw9"
+                    href="https://acmurl.com/sdctfdiscord"
                   >
-                    Register
+                    Start Hacking
                   </a>
                 </span>
               </div>

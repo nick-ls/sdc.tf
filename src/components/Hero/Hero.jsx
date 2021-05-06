@@ -35,9 +35,9 @@ const Header = () => {
         <Fade bottom duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
               <span className="cta-btn cta-btn--hero">
-                <Link to="about" smooth duration={1000}>
-                  Register Now
-                </Link>
+                <a href="https://acmurl.com/sdctfdiscord">
+                  Join Now
+                </a>
               </span>
           </p>
         </Fade>

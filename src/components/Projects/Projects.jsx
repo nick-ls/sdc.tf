@@ -90,7 +90,9 @@ const Projects = () => {
                       only CTF of its kind, and we hope the open source technology we create will
                       help facilitate more competitions of this kind around the world.
                     </p>
-                    <p className="mb-4">More details and source code are to arrive later.</p>
+                    <p className="mb-4">
+                      Source code is to be released after the conclusion of the competition.
+                    </p>
                   </div>
                 </div>
               </Fade>
