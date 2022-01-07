@@ -3,7 +3,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
 
-const HeroImg = ({ filename, alt }) => (
+const HeroImg = ({ filename, alt, size }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -13,7 +13,7 @@ const HeroImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                fixed(width: 375) {
+                fixed(width: 600) {
                   ...GatsbyImageSharpFixed
                 }
               }
