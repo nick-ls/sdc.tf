@@ -25,14 +25,14 @@ const Header = () => {
         <Fade bottom duration={1000} delay={2000} distance="30px">
           <h1 className="hero-title">
             <span className="hero-details">
-              <b>Friday</b> May 7, 5pm - <b>Sunday</b> May 9, 5pm (PDT)
+              <b>Friday</b> May 6, 5pm - <b>Sunday</b> May 8, 5pm (PDT)
             </span>
           </h1>
         </Fade>
         <Fade bottom duration={1000} delay={2000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <a href="https://acmurl.com/sdctfdiscord">Register Now</a>
+              <a href="https://discord.gg/nNk5Q2rTMA">Register Early</a>
             </span>
           </p>
         </Fade>
