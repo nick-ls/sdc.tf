@@ -1,23 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import { Link } from 'react-scroll';
 import HeroImg from '../Image/HeroImg';
 
 const Header = () => {
-  const [isDesktop, setIsDesktop] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    if (window.innerWidth > 769) {
-      setIsDesktop(true);
-      setIsMobile(false);
-    } else {
-      setIsMobile(true);
-      setIsDesktop(false);
-    }
-  }, []);
-
   return (
     <section id="hero" className="jumbotron-fluid">
       <Container>
