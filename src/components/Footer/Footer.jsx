@@ -40,7 +40,7 @@ const Footer = () => {
         <p className="footer__text">
           © {new Date().getFullYear()} - ACM Cyber, original theme by
           <a href="https://github.com/cobidev" target="_blank" rel="noopener noreferrer">
-            Jacobo Martínez
+            &nbsp;Jacobo Martínez
           </a>
         </p>
       </Container>

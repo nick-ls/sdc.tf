@@ -36,8 +36,8 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   San Diego CTF, also known as SDCTF, is an annual Capture the Flag competition
                   hosted by undergraduates at the University of California, San Diego (UCSD). The
-                  competition will be jeopardy-style and run in the 48 hour period from May 7 to May
-                  9, 2021. We encourage participation from teams on and off campus, of all ages and
+                  competition will be jeopardy-style and run in the 48 hour period from May 5 to May
+                  8, 2022. We encourage participation from teams on and off campus, of all ages and
                   backgrounds.
                 </p>
                 <p className="about-wrapper__info-text">
@@ -47,17 +47,17 @@ const About = () => {
                   community.
                 </p>
                 <p className="about-wrapper__info-text">
-                  You may now participate in San Diego CTF by joining our official competition
-                  Discord.
+                  You can now join the Discord server that will be used for the official competition
+                  in May.
                 </p>
                 <span className="d-flex mt-3">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn cta-btn--resume"
-                    href="https://acmurl.com/sdctfdiscord"
+                    href="https://discord.gg/nNk5Q2rTMA"
                   >
-                    Start Hacking
+                    Join the Discord
                   </a>
                 </span>
               </div>

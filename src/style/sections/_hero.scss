@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $dark-blue-text;
+  background: $dark-brown;
   font-weight: 400;
   color: $white-color;
   padding: 0rem 5.6rem;
@@ -15,11 +15,15 @@
   right: 0;
   z-index: -1;
 
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
+  // If you want to set a background image on the hero section, uncomment these with your custom image
+  //background: url('<insert image url or path>')
+  //background-position: center;
+  //background-size: cover;
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  background-image: url('https://cdn.discordapp.com/attachments/759667482561871942/928803456960061490/palm-tree1.png'),
+    url('https://cdn.discordapp.com/attachments/759667482561871942/928802712328486952/palm-tree2.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right bottom;
 
   @include respond(phone) {
     padding: 2.8rem $default-font-size;
