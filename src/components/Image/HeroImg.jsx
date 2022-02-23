@@ -13,7 +13,7 @@ const HeroImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                gatsbyImageData(layout: FIXED, width: 600)
+                gatsbyImageData(layout: CONSTRAINED)
               }
             }
           }
