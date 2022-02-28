@@ -4,6 +4,8 @@ import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+// import Geisel from '../../images/geisel.png';
+// import Discord from '../../images/discord.jpg';
 
 const Projects = () => {
   const [isDesktop, setIsDesktop] = useState(false);
@@ -66,25 +68,23 @@ const Projects = () => {
                 distance="30px"
               >
                 <div className="project-wrapper__image">
-                  <a href="#!" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
-                    <Tilt
-                      options={{
-                        reverse: false,
-                        max: 8,
-                        perspective: 1000,
-                        scale: 1,
-                        speed: 300,
-                        transition: true,
-                        axis: null,
-                        reset: true,
-                        easing: 'cubic-bezier(.03,.98,.52,.99)',
-                      }}
-                    >
-                      <div data-tilt className="thumbnail rounded">
-                        <ProjectImg alt="title" filename="geisel.png" />
-                      </div>
-                    </Tilt>
-                  </a>
+                  <Tilt
+                    options={{
+                      reverse: false,
+                      max: 8,
+                      perspective: 1000,
+                      scale: 1,
+                      speed: 300,
+                      transition: true,
+                      axis: null,
+                      reset: true,
+                      easing: 'cubic-bezier(.03,.98,.52,.99)',
+                    }}
+                  >
+                    <div data-tilt className="thumbnail rounded">
+                      <ProjectImg filename="geisel.png" alt="Geisel" />
+                    </div>
+                  </Tilt>
                 </div>
               </Fade>
             </Col>
@@ -127,25 +127,23 @@ const Projects = () => {
                 distance="30px"
               >
                 <div className="project-wrapper__image">
-                  <a href="#!" target="_blank" aria-label="Project Link" rel="noopener noreferrer">
-                    <Tilt
-                      options={{
-                        reverse: false,
-                        max: 8,
-                        perspective: 1000,
-                        scale: 1,
-                        speed: 300,
-                        transition: true,
-                        axis: null,
-                        reset: true,
-                        easing: 'cubic-bezier(.03,.98,.52,.99)',
-                      }}
-                    >
-                      <div data-tilt className="thumbnail rounded">
-                        <ProjectImg alt="title" filename="discord.jpg" />
-                      </div>
-                    </Tilt>
-                  </a>
+                  <Tilt
+                    options={{
+                      reverse: false,
+                      max: 8,
+                      perspective: 1000,
+                      scale: 1,
+                      speed: 300,
+                      transition: true,
+                      axis: null,
+                      reset: true,
+                      easing: 'cubic-bezier(.03,.98,.52,.99)',
+                    }}
+                  >
+                    <div data-tilt className="thumbnail rounded">
+                      <ProjectImg filename="discord.jpg" alt="Discord" />
+                    </div>
+                  </Tilt>
                 </div>
               </Fade>
             </Col>

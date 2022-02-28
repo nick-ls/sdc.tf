@@ -1,6 +1,7 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
+// import { StaticImage } from 'gatsby-plugin-image';
 import { GatsbyImage } from 'gatsby-plugin-image';
 
 const ProjectImg = ({ filename, alt }) => (
@@ -13,7 +14,7 @@ const ProjectImg = ({ filename, alt }) => (
               relativePath
               name
               childImageSharp {
-                gatsbyImageData(layout: FIXED, width: 800)
+                gatsbyImageData(layout: CONSTRAINED, width: 800)
               }
             }
           }
@@ -29,6 +30,8 @@ const ProjectImg = ({ filename, alt }) => (
     }}
   />
 );
+// return <StaticImage src={filename} layout="constrained" alt={alt} />;
+// };
 
 ProjectImg.propTypes = {
   filename: PropTypes.string,

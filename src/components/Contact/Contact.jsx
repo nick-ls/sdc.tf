@@ -12,11 +12,7 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               We are actively looking for sponsors! If you are interested, check out our
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/11bImJYp3Gq1_LRpSG9HfcfT3y6EGRiCL/view?usp=sharing"
-              >
+              <a target="_blank" rel="noopener noreferrer" href="https://acmurl.com/cybersponsor">
                 {' official sponsorship packet '}
               </a>
               and then get in touch with us below.
@@ -27,7 +23,7 @@ const Contact = () => {
               className="cta-btn cta-btn--resume"
               href="mailto:cyber@acmucsd.org"
             >
-              Let's Talk
+              Let&#39;s Talk
             </a>
           </div>
         </Fade>
