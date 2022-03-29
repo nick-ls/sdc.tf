@@ -32,5 +32,6 @@ module.exports = {
         icon: 'src/images/sdctf-favicon2.png',
       },
     },
+    `gatsby-plugin-no-sourcemaps`,
   ],
 };
