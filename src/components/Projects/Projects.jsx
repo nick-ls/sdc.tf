@@ -95,8 +95,12 @@ const Projects = () => {
                 <div className="project-wrapper__text">
                   <h3 className="project-wrapper__text-title">Infrastructure</h3>
                   <div>
+                    <p className="mb-4">
+                      Challenges themselves run on the wonderful <a href="https://google.github.io/kctf/">kctf</a> and
+                      the cloud infrastructure is sponsored by <a href="https://goo.gle/ctfsponsorship">goo.gle/ctfsponsorship</a>.
+                    </p>
                     <p>
-                      The competition is hosted entirely on the chat application Discord and
+                      The competition interface is hosted entirely on the chat application Discord and
                       facilitated by a one-of-a-kind Discord bot. Everything from team management,
                       to challenge issuing to flag submission is handled by our bot. No web
                       interface necessary.
