@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
@@ -33,5 +34,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-no-sourcemaps`,
+    `gatsby-plugin-remove-fingerprints`
   ],
 };
