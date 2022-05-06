@@ -32,7 +32,7 @@ const Header = () => {
         <Fade bottom duration={1000} delay={2000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <a href="https://discord.gg/nNk5Q2rTMA">Register Early</a>
+              <a href="https://discord.gg/nNk5Q2rTMA">Join Now</a>
             </span>
           </p>
         </Fade>
