@@ -1,0 +1,159 @@
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+	display: none;
+}
+::-webkit-scrollbar-thumb {
+	background: #ececec;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #e2e2e2;
+}
+::-webkit-scrollbar-thumb:active {
+	background: #b8b8b8;
+}
+::-webkit-scrollbar-track {
+	background: #383838;
+}
+
+/* Color vars should go here */
+:root {
+	--orange: #F19A3E;
+	--cyan: #51C0C0;
+	--dark-cyan: #2C7373;
+	--black: #101414;
+	--white: white;
+}
+#root {
+	background-color: var(--black);
+	overflow-x: hidden;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: "DM Sans", sans-serif;
+}
+
+/* Animated button styles */
+.animated-button {
+	transition: color 0.2s;
+	padding: 0.15em 1.15em;
+	border: var(--orange) 0.2em solid;
+	text-decoration: none;
+	position: relative;
+	color: var(--orange);
+	display: block;
+	font-weight: bold;
+	z-index: 0
+}
+.animated-button:hover {
+	color: var(--white);
+}
+.animated-button::before {
+	content: "";
+	display: block;
+	transition: color 0.2s, width 0.2s;
+	background-color: var(--orange);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	z-index: -1;
+}
+.animated-button:hover::before {
+	width: 100%;
+}
+
+/* White button */
+.animated-button.btn-white {
+	border-color: var(--white);
+	color: var(--white);
+}
+.animated-button.btn-white:hover {
+	color: var(--dark-cyan);
+}
+.animated-button.btn-white::before {
+	background-color: var(--white);
+}
+
+/* Hero styles */
+.hero {
+	padding-top: 3rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: var(--white);
+	position: relative;
+	height: calc(100vh - 3rem);
+	z-index: 0;
+	text-align: center;
+}
+.hero-presents, .hero-date {
+	font-size: 2.75rem;
+	padding: 0 2rem;
+}
+.hero-presents > strong { 
+	color: var(--orange);
+	display: inline-block;
+}
+.hero-presents > span {
+	display: inline-block;
+}
+.logo {
+	margin-top: 2.5rem;
+	max-width: 47.5%;
+}
+.hero-date {
+	margin-top: 5rem;
+	padding: 0 2rem;
+}
+.hero-date > span{
+	display: inline-block;
+}
+.hero > .animated-button {
+	margin-top: 5rem;
+	font-size: 3rem;
+}
+.hero-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+.palm-left, .palm-right {
+	position: absolute;
+}
+.palm-left {
+	top: 40%;
+	left: -4rem;
+}
+.palm-right {
+	top: 10%;
+	right: -6rem;
+}
+
+
+
+/* Responsive queries go here */
+@media screen and (max-width: 1000px) {
+	.logo {
+		max-width: 85%;
+	}
+	html {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	.logo {
+		max-width: 90%;
+	}
+}
