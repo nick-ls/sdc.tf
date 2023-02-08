@@ -24,6 +24,7 @@
 	--cyan: #51C0C0;
 	--dark-cyan: #2C7373;
 	--black: #101414;
+	--darkgrey: #272B2B;
 	--white: white;
 }
 #root {
@@ -128,14 +129,22 @@ html, body {
 }
 .palm-left, .palm-right {
 	position: absolute;
+	max-width: 50vw;
+	z-index: 1;
 }
 .palm-left {
 	top: 40%;
-	left: -4rem;
+	left: -4em;
 }
 .palm-right {
 	top: 10%;
-	right: -6rem;
+	right: -6em;
+}
+.stars-top {
+	margin-left: 4rem;
+	margin-right: 3rem;
+	margin-top: 3rem;
+	max-width: 85%;
 }
 
 
@@ -148,6 +157,21 @@ html, body {
 	html {
 		font-size: 14px;
 	}
+	
+}
+@media screen and (max-width: 1200px) {
+	.palm-left {
+		top: 40%;
+		left: -3em;
+	}
+	.palm-right {
+		top: 10%;
+		right: -4em;
+	}
+	.stars-top {
+		max-width: 100%;
+	}
+
 }
 @media screen and (max-width: 600px) {
 	html {
@@ -155,5 +179,13 @@ html, body {
 	}
 	.logo {
 		max-width: 90%;
+	}
+	.palm-left {
+		top: 40%;
+		left: -2em;
+	}
+	.palm-right {
+		top: 10%;
+		right: -3em;
 	}
 }

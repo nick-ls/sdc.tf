@@ -30,7 +30,7 @@ export default class Hero extends Component<HeroProps, HeroState> {
 			<Button title="Join Now" link={DISCORD_INVITE}></Button>
 			<div className="hero-bg">
 				<img className="palm-left" src="svg/palm-left.svg"></img>
-				<img src="svg/stars-top.svg"></img>
+				<img className="stars-top" src="svg/stars-top.svg"></img>
 				<img className="palm-right" src="svg/palm-right.svg"></img>
 			</div>
 		</div>;
