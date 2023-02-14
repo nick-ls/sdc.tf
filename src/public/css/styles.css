@@ -235,9 +235,91 @@ html, body {
 }
 .infra .section-body{
 	padding-bottom: 12rem;
+	padding-top: 0;
 }
+
 .sponsor {
 	margin-top: -10rem;
+}
+.sponsor .section-content {
+	width: 65%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 1.6rem;
+	text-align: center;
+	margin: 0;
+}
+.sponsor .section-body > h1 {
+	margin-bottom: 2rem;
+	font-size: 3rem;
+}
+.sponsor p {
+	margin-bottom: 3rem;
+}
+.sponsor a {
+	color: var(--white);
+}
+
+.sponsor .section-inner-body > :first-child {
+	padding: unset;
+}
+.sponsor .section-body {
+	padding-bottom: 5rem;
+}
+
+/* footer styles */
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	height: 20em;
+}
+.socials {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	width: 100%;
+	flex-grow: 1;
+}
+.socials a {
+	font-size: 3em;
+	margin: 0 3rem;
+	color: var(--white);
+	text-decoration: none;
+}
+.stars-bottom-right, .stars-bottom-left {
+	padding: 3rem 1rem;
+	max-width: 40%;
+	min-height: 50%;
+	object-fit: cover;
+	object-position: 0%;
+	max-height: 85%;
+}
+.really-cool-css-class-name-wow {
+	position: absolute;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 1rem;
+}
+.totally-epic-and-awesome-container-div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.copyright {
+	margin-bottom: 1rem;
 }
 
 /* Responsive queries go here */
@@ -268,7 +350,7 @@ html, body {
 	.section-content, .section-img {
 		width: 80%;
 		max-width: 80%;
-		font-size: 1.8em;
+		font-size: 1.8em!important;
 		padding-left: unset;
 	}
 	.section-img {
@@ -280,6 +362,9 @@ html, body {
 	}
 	.section-body > h1 {
 		font-size: 6em;
+	}
+	.animated-button {
+		font-size: 2.2rem!important;
 	}
 }
 @media screen and (max-width: 600px) {

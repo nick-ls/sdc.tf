@@ -4,7 +4,8 @@ import {Component} from "react";
 import Hero from "./components/Hero";
 import Section from "./components/Section";
 import Button from "./components/Button";
-import {DISCORD_INVITE, CHALLENGES_URL, SIGNUP_URL, CONTACT_LINK} from "./components/Config";
+import {DISCORD_INVITE, CHALLENGES_URL, SIGNUP_URL, CONTACT_LINK, SPONSOR_PACKET} from "./components/Config";
+import Footer from "./components/Footer";
 
 interface MainProps {}
 interface MainState {}
@@ -38,11 +39,12 @@ export default class Main extends Component<MainProps, MainState> {
 			]}>
 				<Button link={SIGNUP_URL}>Sign Up</Button>
 			</Section>
-			<Section classes="sponsor" heading="Sponsorship" headerurl="svg/triangle-cyan.svg" text={[
-				"We are actively looking for sponsors! If you are interested, check out our [official sponsorship packet](/sponsor.pdf) and then get in touch with us below."
+			<Section classes="sponsor" heading="SPONSORSHIP" headerurl="svg/triangle-cyan.svg" text={[
+				`We are actively looking for sponsors! If you are interested, check out our [official sponsorship packet](${SPONSOR_PACKET}) and then get in touch with us below.`
 			]}>
 				<Button link={CONTACT_LINK} classes="btn-white">Let's Talk</Button>
 			</Section>
+			<Footer></Footer>
 		</>;
 	}
 }
