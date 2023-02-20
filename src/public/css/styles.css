@@ -52,7 +52,8 @@ html, body {
 	display: block;
 	font-weight: bold;
 	z-index: 0;
-	width: fit-content;	
+	width: fit-content;
+	text-align: center;	
 }
 .animated-button:hover {
 	color: var(--white);
@@ -233,7 +234,7 @@ html, body {
 	margin-top: -3rem;
 }
 .details .section-header, .sponsor .section-header{
-	transform: translateY(0.5px);
+	transform: translateY(1px);
 	width: 100vw;
 }
 .details .section-inner-body > :first-child, .infra .section-inner-body > :first-child {
@@ -336,6 +337,14 @@ div.sponsor a {
 }
 
 /* Responsive queries go here */
+@media screen and (min-width: 2000px) {
+	.sponsor {
+		margin-top: -15rem;
+	}
+	.infra .section-body {
+		padding-bottom: 18rem;
+	}
+}
 @media screen and (max-width: 1200px) {
 	.palm-left {
 		top: 40%;
@@ -410,5 +419,25 @@ div.sponsor a {
 	}
 	.section-content a {
 		justify-self: center;
+	}
+	.section-body > h1 {
+		font-size: 5em;
+	}
+}
+@media screen and (max-width: 400px) {
+	html {
+		font-size: 8px;
+	}
+	.section-content p {
+		max-width: 80vw;
+	}
+	.section-content a {
+		justify-self: start!important;
+	}
+	.section-content h1 {
+		font-size: 4rem;
+	}
+	.section-body > h1 {
+		font-size: 4em;
 	}
 }

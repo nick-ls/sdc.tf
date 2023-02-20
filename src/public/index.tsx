@@ -38,14 +38,14 @@ export default class Main extends Component<MainProps, MainState> {
 				"In addition, we have around $300 extra that we will be distributing to the UCSD teams/players for challenge writeups, so even if your team doesn't win, you will still be eligible for these prizes!"
 			]}>
 			</Section>
-			<Section classes="infra" title="Infrastructure" img="img/discord.jpg" alt="Discord's old logo" text={[
-				"Challenges themselves run on the wonderful kctf and the cloud infrastructure is sponsored by [goo.gle/ctfsponsorship](https://goo.gle/ctfsponsorship).", 
+			<Section classes="infra" title={"Infra\u00ADstruct\u00ADure"} img="img/discord.jpg" alt="Discord's old logo" text={[
+				"Challenges themselves run on the wonderful kctf and the cloud infrastructure is sponsored by [goo.gle/\u2009ctfsponsorship](https://goo.gle/ctfsponsorship).", 
 				"In previous years, we hosted SDCTF entirely through the messaging platform Discord. This year, due to Discord API changes, excessive rate limiting, and reduced challengers' satisfaction with the bot, we've opted to use a more common web-based CTF platform.",
 				"When signups open, we will send out an announcement in the Discord and update information where it is relevant."
 			]}>
 				<Button link={SIGNUP_URL}>Sign Up</Button>
 			</Section>
-			<Section classes="sponsor" heading="SPONSORSHIP" headerurl="svg/triangle-cyan.svg" text={[
+			<Section classes="sponsor" heading={"SPONSOR\u00ADSHIP"} headerurl="svg/triangle-cyan.svg" text={[
 				`We are actively looking for sponsors! If you are interested, check out our [official sponsorship packet](${SPONSOR_PACKET}) and then get in touch with us below.`
 			]}>
 				<Button link={CONTACT_LINK} classes="btn-white">Let's Talk</Button>
