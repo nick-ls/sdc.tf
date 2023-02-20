@@ -164,6 +164,7 @@ html, body {
 .section-content {
 	width: 30%;
 	font-size: 1.2em;
+	align-self: flex-start;
 }
 .section-content > h1 {
 	font-size: 3em;
@@ -182,6 +183,15 @@ html, body {
 	flex-direction: column;
 	background-color: var(--dark-cyan);
 	width: 100%;
+}
+.section-body p a {
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--orange);
+}
+.section-body p a:hover {
+	color: var(--cyan);
+	text-decoration: underline;
 }
 .section-body > h1 {
 	font-size: 4em;
@@ -211,12 +221,12 @@ html, body {
 .details {
 	margin-top: -11vw;
 }
-.details .section-body, .infra .section-body {
+.details .section-body, .infra .section-body, .ucsd .section-body {
 	background-color: var(--white);
 	color: var(--black);
 	padding: 4rem 0;
 }
-.details .section-inner-body {
+.details .section-inner-body, .infra .section-inner-body {
 	flex-direction: row-reverse;
 }
 .details .section-body > h1 {
@@ -226,7 +236,7 @@ html, body {
 	transform: translateY(0.5px);
 	width: 100vw;
 }
-.details .section-inner-body > :first-child {
+.details .section-inner-body > :first-child, .infra .section-inner-body > :first-child {
 	padding-right: unset;
 	padding-left: 6rem;
 }
@@ -236,6 +246,9 @@ html, body {
 .infra .section-body{
 	padding-bottom: 12rem;
 	padding-top: 0;
+}
+.ucsd .section-body {
+	padding-bottom:8rem;
 }
 
 .sponsor {
@@ -258,7 +271,7 @@ html, body {
 .sponsor p {
 	margin-bottom: 3rem;
 }
-.sponsor a {
+div.sponsor a {
 	color: var(--white);
 }
 
@@ -347,6 +360,9 @@ html, body {
 	.section-inner-body {
 		flex-direction: column-reverse!important;
 	}
+	.section-content {
+		align-self: center;
+	}
 	.section-content, .section-img {
 		width: 80%;
 		max-width: 80%;
@@ -366,6 +382,12 @@ html, body {
 	.animated-button {
 		font-size: 2.2rem!important;
 	}
+	.section-body {
+		padding: 4rem;
+	}
+	.infra .section-body {
+		padding-bottom: 16rem;
+	}
 }
 @media screen and (max-width: 600px) {
 	html {
@@ -381,5 +403,12 @@ html, body {
 	.palm-right {
 		top: 10%;
 		right: -3em;
+	}
+	.section-content {
+		display: grid;
+		flex-direction: column;
+	}
+	.section-content a {
+		justify-self: center;
 	}
 }

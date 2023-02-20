@@ -2,7 +2,8 @@
 	{
 		"sitename": "index",
 		"title": "SDCTF 2023",
-		"description": "San Diego Capture the Flag 2023",
+		"metaimg": "/img/meta.jpg",
+		"description": "San Diego CTF 2023 by ACM Cyber at UCSD",
 		"jsfiles": [
 			"/js/index.js"
 		],

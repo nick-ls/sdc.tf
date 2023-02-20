@@ -8,6 +8,7 @@ interface SectionProps {
 	img?: string;
 	classes?: string;
 	headerurl?: string;
+	alt?: string;
 }
 interface SectionState {}
 
@@ -30,7 +31,7 @@ export default class Section extends Component<SectionProps, SectionState> {
 					<h1>{this.props.heading}</h1> : <></>
 				}
 				<div className="section-inner-body">
-					{this.props.img ? <img className="section-img" src={this.props.img}/> : <></>}
+					{this.props.img ? <img className="section-img" src={this.props.img} alt={this.props.alt??""}/> : <></>}
 					<div className="section-content">
 						{this.props.title ? <h1>{this.props.title}</h1> : <></>}
 						{this.props.text.map((t, i) => {
@@ -41,10 +42,10 @@ export default class Section extends Component<SectionProps, SectionState> {
 								if (m.index === this.linkGroups.lastIndex) {
 									this.linkGroups.lastIndex++;
 								}
-								full.push(<>{text.shift()??""}</>);
-								full.push(<a href={m[2]}>{m[1]}</a>);
+								full.push(<span key={text[0]}>{text.shift()??""}</span>);
+								full.push(<a href={m[2]} key={m[2]}>{m[1]}</a>);
 							}
-							full.push(<>{text.shift() ?? ""}</>);
+							full.push(<span key={text[0]}>{text.shift() ?? ""}</span>);
 							return <p key={i}>{full}</p>
 						})}
 						{this.props.children}
