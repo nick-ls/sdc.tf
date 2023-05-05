@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Component} from "react";
 import Button from "./Button"
-import {DISCORD_INVITE} from "./Config"
+import {SIGNUP_URL} from "./Config"
 
 interface HeroProps {}
 interface HeroState {}
