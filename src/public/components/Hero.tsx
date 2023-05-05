@@ -27,7 +27,7 @@ export default class Hero extends Component<HeroProps, HeroState> {
 					<strong>Sunday</strong> May 7th, 5pm (PDT)
 				</span>
 			</div>
-			<Button link={DISCORD_INVITE}>Join Now</Button>
+			<Button link={SIGNUP_URL}>Join Now</Button>
 			<div className="hero-bg">
 				<img className="palm-left" src="svg/palm-left.svg"></img>
 				<img className="stars-top" src="svg/stars-top.svg"></img>
