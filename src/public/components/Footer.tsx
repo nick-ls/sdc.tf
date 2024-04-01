@@ -23,7 +23,7 @@ export default class Footer extends Component<FooterProps, FooterState> {
 					<a className="fa fa-facebook" href={FACEBOOK}></a>
 					<a className="fa fa-twitter" href={TWITTER}></a>
 				</div>
-				<div className="copyright">© 2023 - ACM Cyber</div>
+				<div className="copyright">© 2024 - ACM Cyber</div>
 			</div>
 		</div>;
 	}
