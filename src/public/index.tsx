@@ -20,7 +20,7 @@ export default class Main extends Component<MainProps, MainState> {
 		return <>
 			<Hero></Hero>
 			<Section classes="wave" title="ABOUT US" img="img/about.jpg" alt="That same picture of Aaron we keep using" headerurl="svg/wave2.svg" text={[
-				"San Diego CTF (SDCTF) is an annual Capture the Flag competition hosted by undergraduates at the University of California, San Diego (UCSD). The competition will be jeopardy-style and run in the 48 hour period from May 5 to May 7, 2023. We encourage participation from teams on and off campus, of all ages and backgrounds.",
+				"San Diego CTF (SDCTF) is an annual Capture the Flag competition hosted by undergraduates at the University of California, San Diego (UCSD). The competition will be jeopardy-style and run in the 48 hour period from May 10 to May 12, 2024. We encourage participation from teams on and off campus, of all ages and backgrounds.",
 				"This event is hosted yearly by ACM Cyber, the chief cybersecurity organization on campus at UC San Diego. This yearly competition allows us to train our members, build our internal resources, and give back to the greater cybersecurity community.",
 				"You can now join the Discord server that will be used for the official competition in May."
 			]}>
