@@ -42,7 +42,7 @@ export default class Main extends Component<MainProps, MainState> {
 				"Challenges themselves run on the wonderful kctf! We're using GZCTF for our web platform this year, see the link for more info.", 
 				"Signups are now open."
 			]}>
-				<a href="https://github.com/GZTimeWalker/GZCTF">GZCTF Repo</a>
+				<a style={{display: "inline-block", marginBottom: "1.5em"}} href="https://github.com/GZTimeWalker/GZCTF">GZCTF Repo</a>
 				<Button link={SIGNUP_URL}>Sign Up</Button>
 			</Section>
 			<Section classes="sponsor" heading={"SPONSOR\u00ADSHIP"} headerurl="svg/triangle-cyan.svg" text={[
