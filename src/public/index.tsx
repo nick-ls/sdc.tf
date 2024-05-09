@@ -30,19 +30,19 @@ export default class Main extends Component<MainProps, MainState> {
 				"San Diego CTF is a 48-hour jeopardy style CTF with static scoring. Challenges vary across the disciplines of Open Source Intelligence, Cryptography, Web Hacking, Reverse Engineering, Binary Exploitation, Forensic Analysis, and others. At the end of a 48 hour period, the teams participating are ranked by number of points, with ties broken by who reached that number of points first.",
 				"Non-UCSD teams have no size limit. Monetary prizes are planned but not finalized. At the conclusion of the competition, challenge and solution source code will be made publicly available."
 			]}>
-				<Button link={CHALLENGES_URL}>See 2022 Challenges</Button>
+				<Button link={CHALLENGES_URL}>See 2023 Challenges</Button>
 			</Section>
 			<Section classes="ucsd" title="UCSD Students" img="img/students.jpg" alt="Competitors gathered around a table looking at laptops" text={[
-				"This year, we have a prize pool of $1,500 for UCSD student teams!",
-				"The prize distributions are $512 for 1st, $256 for 2nd, $128 for 3rd, and $64 for 4th through 8th place. In order to be elegible for UCSD-specific prizes, team sizes are capped at 4 players.",
-				"In addition, we have around $300 extra that we will be distributing to the UCSD teams/players for challenge writeups, so even if your team doesn't win, you will still be eligible for these prizes!"
+				"This year, we have a prize pool of $1,500 for all teams!",
+				"The prize distributions this year are $512 for 1st, $256 for 2nd, and $128 for 3rd! In addition to this, UCSD student teams are eligible for UCSD-specific prizes! If you rank 1st, 2nd, or 3rd among all UCSD teams, you will receive an additional $256, $128, and $64 respectively!",
+				"Finally, the remaining amount will be distributed to the best challenge writeups, which anyone is eligible for regardless of placement!"
 			]}>
 			</Section>
 			<Section classes="infra" title={"Infra\u00ADstruct\u00ADure"} img="img/discord.jpg" alt="Discord's old logo" text={[
-				"Challenges themselves run on the wonderful kctf and the cloud infrastructure is sponsored by [goo.gle/\u2009ctfsponsorship](https://goo.gle/ctfsponsorship).", 
-				"In previous years, we hosted SDCTF entirely through the messaging platform Discord. This year, due to Discord API changes, excessive rate limiting, and reduced challengers' satisfaction with the bot, we've opted to use a more common web-based CTF platform.",
-				"When signups open, we will send out an announcement in the Discord and update information where it is relevant."
+				"Challenges themselves run on the wonderful kctf! We're using GZCTF for our web platform this year, see the link for more info.", 
+				"Signups are now open."
 			]}>
+				<a href="https://github.com/GZTimeWalker/GZCTF">GZCTF Repo</a>
 				<Button link={SIGNUP_URL}>Sign Up</Button>
 			</Section>
 			<Section classes="sponsor" heading={"SPONSOR\u00ADSHIP"} headerurl="svg/triangle-cyan.svg" text={[
