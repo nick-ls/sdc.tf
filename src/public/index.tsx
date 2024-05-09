@@ -39,7 +39,7 @@ export default class Main extends Component<MainProps, MainState> {
 			]}>
 			</Section>
 			<Section classes="infra" title={"Infra\u00ADstruct\u00ADure"} img="img/discord.jpg" alt="Discord's old logo" text={[
-				"Challenges themselves run on the wonderful kctf! We're using GZCTF for our web platform this year, see the link for more info.", 
+				"Challenges themselves run on the wonderful kctf! We're using GZCTF for our web platform this year, which uses dynamic scoring among other things; see the link for more info.", 
 				"Signups are now open."
 			]}>
 				<a style={{display: "inline-block", marginBottom: "1.5em"}} href="https://github.com/GZTimeWalker/GZCTF">GZCTF Repo</a>
